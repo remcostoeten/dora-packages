@@ -10,8 +10,8 @@
         }
     },
     "post_install": [
-        "Remove-Item \"$dir\\$PLUGINSDIR\" -Recurse -Force -ErrorAction SilentlyContinue",
-        "Remove-Item \"$dir\\uninstall.exe\" -Force -ErrorAction SilentlyContinue"
+        "Remove-Item (Join-Path $dir '$PLUGINSDIR') -Recurse -Force -ErrorAction SilentlyContinue",
+        "Remove-Item (Join-Path $dir 'uninstall.exe') -Force -ErrorAction SilentlyContinue"
     ],
     "shortcuts": [
         [
