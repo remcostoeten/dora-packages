@@ -1,0 +1,10 @@
+{
+  "version": "0.44.0",
+  "tag": "v0.44.0",
+  "systems": {
+    "x86_64-linux": {
+      "url": "https://github.com/remcostoeten/dora/releases/download/v0.44.0/Dora_0.44.0_amd64.deb",
+      "sha256": "3655f5e86ae12429b097ba06f90273ac0d6ecb2194e524afc02670283611b671"
+    }
+  }
+}
