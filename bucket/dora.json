@@ -1,12 +1,16 @@
 {
-    "version": "0.44.0",
+    "version": "0.45.0",
     "description": "Free, open source database client for PostgreSQL, MySQL, SQLite, libSQL, D1 and DuckDB",
     "homepage": "https://github.com/remcostoeten/dora",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/remcostoeten/dora/releases/download/v0.44.0/Dora_0.44.0_x64-setup.exe#/dl.7z",
-            "hash": "232520d39050f6e4234f122edb4f2ab8cf0b00e858b9d267d5a8b4720a5540fa"
+            "url": "https://github.com/remcostoeten/dora/releases/download/v0.45.0/Dora_0.45.0_x64-setup.exe#/dl.7z",
+            "hash": "0ae4fe75144b6098db3669f057762b86a8893675b96deb8cce20b038534e6d9c"
+        },
+        "arm64": {
+            "url": "https://github.com/remcostoeten/dora/releases/download/v0.45.0/Dora_0.45.0_arm64-setup.exe#/dl.7z",
+            "hash": "c22f3e59b7c614930a4d0940a034b8c8954c4e2ac918304737425a1ffc14be0c"
         }
     },
     "post_install": [
@@ -26,6 +30,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/remcostoeten/dora/releases/download/v$version/Dora_$version_x64-setup.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/remcostoeten/dora/releases/download/v$version/Dora_$version_arm64-setup.exe#/dl.7z"
             }
         }
     }
